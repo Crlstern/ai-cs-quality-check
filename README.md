@@ -68,13 +68,6 @@ tongji/
 └── README.md             # 项目说明
 ```
 
-## 🌐 在线体验
-
-已部署到 Vercel，扫码访问：
-
-![二维码](qrcode.png)
-
-或访问：https://your-project.vercel.app
 
 ## 🔧 使用说明
 
@@ -144,81 +137,3 @@ qrcode==7.4.2
 Pillow==10.1.0
 ```
 
-## 🚀 部署到云端
-
-### Vercel 部署
-
-1. 上传到 GitHub
-2. 访问 https://vercel.com 导入项目
-3. 配置环境变量：
-   - `DEEPSEEK_API_KEY`: 你的 DeepSeek API Key
-   - `USE_REAL_API`: `false`（演示模式）
-4. 点击 Deploy，等待部署完成
-5. 生成访问二维码
-
-详见 [QUICK_START.md](QUICK_START.md)
-
-## 🎓 面试亮点
-
-1. ✅ **AI 大模型集成** - 展示 DeepSeek API 调用能力
-2. ✅ **双模式设计** - 演示模式快速展示，真实模式智能分析
-3. ✅ **全栈开发** - 后端 Flask + 前端 Bootstrap + AI 集成
-4. ✅ **云端部署** - Vercel 部署，24 小时在线
-5. ✅ **商业思维** - 展示 AI 带来的商业价值（节省成本、提升效率）
-
-## 📝 API 接口
-
-### POST /generate_and_analyze
-
-生成模拟数据并分析
-
-```json
-{
-  "num_items": 20,
-  "include_extreme_bad_cases": false,
-  "industry": "电商",
-  "demo_mode": "daily",
-  "use_api": false
-}
-```
-
-### POST /analyze
-
-分析真实客服日志
-
-```json
-{
-  "user_input": "客服对话日志..."
-}
-```
-
-### GET /download_report
-
-下载质检日报（Markdown 格式）
-
-### GET /download_chart
-
-下载图表（PNG 格式）
-
-## 🔑 获取 DeepSeek API Key
-
-1. 访问 https://platform.deepseek.com
-2. 注册账号并登录
-3. 在控制台创建 API Key
-4. 新用户有免费额度
-
-## 📄 许可证
-
-MIT License
-
-##  贡献
-
-欢迎提交 Issue 和 Pull Request！
-
-## 📧 联系方式
-
-如有问题，请提交 Issue 或联系作者。
-
----
-
-**项目亮点总结**：这是一个完整的 AI 质检系统，展示了从数据生成、AI 分析、可视化到报告生成的全流程。支持演示和真实两种模式，适合面试展示和实际业务使用。已部署到云端，扫码即可体验。
