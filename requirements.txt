@@ -1,0 +1,25 @@
+# Flask Web 框架
+Flask==3.0.0
+
+# HTTP 请求库
+requests==2.31.0
+
+# 环境变量管理
+python-dotenv==1.0.0
+
+# 数据验证
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# 数据处理
+pandas==2.1.4
+
+# 图表绘制
+matplotlib==3.8.2
+
+# DeepSeek API 调用（使用 requests）
+# 已包含在 requests 中
+
+# 二维码生成
+qrcode==7.4.2
+Pillow==10.1.0
